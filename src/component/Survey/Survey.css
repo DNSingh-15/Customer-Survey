@@ -1,0 +1,106 @@
+.survey-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+   
+  }
+
+  .survey-inner-container {
+    width: 30%;
+    height: 55%;
+    padding: 40px 25px;
+    border-radius: 45px;
+    border: 1px solid black;
+    background-color: #969cbf;
+  }
+  
+  .survey-division {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .feedback {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option {
+    background-color: #f1f1f1;
+    border: 1px solid #000000;
+    border-radius: 2.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .option.selected {
+    background-color: #dc1616;
+    color: white;
+    border: white;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 1rem;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 35%;
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+  }
+  
+  .nav-button {
+    margin-top: 2.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0000a3;
+    color: rgb(208, 184, 184);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .nav-button-next {
+    margin-top: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    background-color: #bd0a8a;
+    cursor: pointer;
+  }
+
+  .nav-button:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
+  .submit-button {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #0f6537;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 10rem;
+  }
