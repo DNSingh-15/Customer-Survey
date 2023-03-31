@@ -87,6 +87,7 @@
     color: white;
     background-color: #bd0a8a;
     cursor: pointer;
+    overflow: hidden;
   }
 
   .nav-button:disabled {
